@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correlation Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Interactive Correlation Tool</h1>
+        <label for="dataX">Enter Dataset X (comma-separated):</label>
+        <textarea id="dataX" placeholder="e.g., 1,2,3,4,5"></textarea>
+        <label for="dataY">Enter Dataset Y (comma-separated):</label>
+        <textarea id="dataY" placeholder="e.g., 2,4,6,8,10"></textarea>
+        <button onclick="calculateCorrelation()">Calculate Correlation</button>
+        <canvas id="scatterPlot" width="800" height="400"></canvas>
+        <div class="insights" id="insights"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

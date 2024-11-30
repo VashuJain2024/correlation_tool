@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+textarea,
+input[type="number"],
+button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+
+canvas {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.insights {
+    margin-top: 20px;
+    font-size: 18px;
+}
