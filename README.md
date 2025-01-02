@@ -39,3 +39,8 @@ The **Interactive Correlation Tool** is a user-friendly web application built us
    ```bash
    git clone https://github.com/VashuJain2024/correlation_tool.git
    cd correlation_tool
+
+---
+
+## Output
+![Screenshot 2025-01-02 211054](https://github.com/user-attachments/assets/b9d126ca-ee60-4668-a1cd-031ea90096f8)
